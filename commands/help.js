@@ -1,6 +1,6 @@
 const { EmbedBuilder } = require("@discordjs/builders");
 const { SlashCommandBuilder } = require("discord.js");
-const randomColor = require("../helpers/randomColor");
+const { randomColor } = require("../helpers/randomColor");
 
 const help = new EmbedBuilder()
 .setTitle('List of commands')
