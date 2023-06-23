@@ -1,5 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require("discord.js");
-const randomColor = require("../helpers/randomColor");
+const { randomColor } = require("../helpers/randomColor");
 
 const info = new EmbedBuilder()
         .setTitle('About')
